@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[YOUR_PROJECT_LOGO_URL_HERE]" alt="MetaScreen Logo" width="200"/>
+  <img src="[YOUR_PROJECT_LOGO_URL_HERE]" alt="MetaAgent Logo" width="200"/>
 </p>
 
 <h1 align="center">MetaAgent</h1>
@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="#-核心理念"><b>核心理念</b></a> •
-  <a href="#-为什么选择-metascreen"><b>为什么选择 MetaScreen</b></a> •
+  <a href="#-为什么选择-MetaAgent"><b>为什么选择 MetaAgent</b></a> •
   <a href="#-核心架构"><b>核心架构</b></a> •
   <a href="#-应用场景"><b>应用场景</b></a> •
   <a href="#-项目蓝图"><b>项目蓝图</b></a> •
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-MetaScreen-blue.svg?style=for-the-badge" alt="Project MetaScreen">
+  <img src="https://img.shields.io/badge/Project-MetaAgent-blue.svg?style=for-the-badge" alt="Project MetaAgent">
   <img src="https://img.shields.io/badge/Status-Alpha-red.svg?style=for-the-badge" alt="Status Alpha">
   <img src="https://img.shields.io/badge/License-Apache_2.0-green.svg?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome">
@@ -38,7 +38,7 @@
 1.  **身份（Persona）：** “我是谁？”—— 通过深度定制的浏览器指纹，AI不再是可疑的`Headless`脚本，而是可以定义自己为“特定设备上的真实用户”。
 2.  **交互（Interaction）：** “我能做什么？”—— AI不再只是调用API，而是能真正“看见”（视觉/DOM）和“操作”（点击/输入）这个世界。
 
-## ✨ 为什么选择 MetaScreen？
+## ✨ 为什么选择 MetaAgent？
 
 | 特性 | 传统的浏览器自动化 (e.g., Playwright) | `MetaAgent` (AI + 指纹) |
 | :--- | :--- | :--- |
@@ -79,12 +79,12 @@
     * **“无头”已死：** 我们的目标是运行**“有头”但“无人”**（Headful but Human-less）的实例，以通过所有反爬虫检测。
 
 * **LLM / Agent 框架原生接入**
-    * **工具提供：** `MetaScreen` 作为“工具（Tool）”无缝接入 `LangChain` / `LlamaIndex` 等框架。
-    * **任务执行：** AI（如GPT-4）负责**规划**（"登录这个网站并发布一篇帖子"），`MetaScreen` 负责**执行**（处理登录、点击、输入、上传图片等所有具体交互）。
+    * **工具提供：** `MetaAgent` 作为“工具（Tool）”无缝接入 `LangChain` / `LlamaIndex` 等框架。
+    * **任务执行：** AI（如GPT-4）负责**规划**（"登录这个网站并发布一篇帖子"），`MetaAgent` 负责**执行**（处理登录、点击、输入、上传图片等所有具体交互）。
 
 * **多模态“视觉”输入**
     * AI不仅能读取 `DOM`，还能**“看到”屏幕截图**。
-    * `MetaScreen` API提供“视觉反馈”功能，允许AI智能体（特别是多模态模型）像人一样，通过“看”屏幕来进行下一步决策，而不是依赖脆弱的HTML选择器。
+    * `MetaAgent` API提供“视觉反馈”功能，允许AI智能体（特别是多模态模型）像人一样，通过“看”屏幕来进行下一步决策，而不是依赖脆弱的HTML选择器。
 
 ## 🎯 应用场景
 
